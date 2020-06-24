@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Chart from 'chart.js';
-import isEqual from 'lodash/isEqual';
-import keyBy from 'lodash/keyBy';
+import isEqual from './isEqual';
+import keyBy from './keyBy';
 
 const NODE_ENV = (typeof process !== 'undefined') && process.env && process.env.NODE_ENV;
 
